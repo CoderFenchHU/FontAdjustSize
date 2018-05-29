@@ -49,8 +49,6 @@
     UIFont *nBoldFont = nil;
     nBoldFont = [UIFont swizz_boldSystemFontOfSize:fontSize * SIZE_SCALE];
     return nBoldFont;
-    
-    [self performSelector:@selector(executeSubScribe) withObject:nil afterDelay:3];
 }
 
 + (UIFont *)swizz_fontWithName:(NSString *)fontName size: (CGFloat)fontSize {
